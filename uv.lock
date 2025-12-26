@@ -18,6 +18,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "django" },
     { name = "django-cors-headers" },
+    { name = "django-dotenv" },
     { name = "djangorestframework" },
     { name = "djangorestframework-simplejwt" },
 ]
@@ -26,6 +27,7 @@ dependencies = [
 requires-dist = [
     { name = "django", specifier = ">=6.0" },
     { name = "django-cors-headers", specifier = ">=4.9.0" },
+    { name = "django-dotenv", specifier = ">=1.4.2" },
     { name = "djangorestframework", specifier = ">=3.16.1" },
     { name = "djangorestframework-simplejwt", specifier = ">=5.5.1" },
 ]
@@ -55,6 +57,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/21/39/55822b15b7ec87410f34cd16ce04065ff390e50f9e29f31d6d116fc80456/django_cors_headers-4.9.0.tar.gz", hash = "sha256:fe5d7cb59fdc2c8c646ce84b727ac2bca8912a247e6e68e1fb507372178e59e8", size = 21458, upload-time = "2025-09-18T10:40:52.326Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/30/d8/19ed1e47badf477d17fb177c1c19b5a21da0fd2d9f093f23be3fb86c5fab/django_cors_headers-4.9.0-py3-none-any.whl", hash = "sha256:15c7f20727f90044dcee2216a9fd7303741a864865f0c3657e28b7056f61b449", size = 12809, upload-time = "2025-09-18T10:40:50.843Z" },
+]
+
+[[package]]
+name = "django-dotenv"
+version = "1.4.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/82/18/b1d0bb605a5737e9a62c5135cf4bc234a5186abfbe1b06706ea68f235f32/django-dotenv-1.4.2.tar.gz", hash = "sha256:3812bb0f4876cf31f902aad140f0645e120e51ee30eb7c40c22050f58a0e4adb", size = 4295, upload-time = "2017-12-11T16:44:36.177Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e4/af/d9175f2b40a9bcd700db2861610d6ed48c2795ffba46c1d6abf25f7c1dea/django_dotenv-1.4.2-py2.py3-none-any.whl", hash = "sha256:a9b1b40a70bd321acd231926acedb9bd2c5e873e33a1873b34a7276d196a765e", size = 3794, upload-time = "2017-12-11T16:44:32.658Z" },
 ]
 
 [[package]]
